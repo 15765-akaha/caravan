@@ -37,9 +37,8 @@
     <h2 class="blog-headline">Blog</h2>
     <section class="blog-box">
       <h3 class="blog-box-headline">
-        <%= @blog.title %>
+         <%= @blog.title %>
       </h3>
- 
       <div class="blog-box-content">
         <p class="category">
          <%= @blog.category %>
@@ -48,15 +47,12 @@
          <%= @blog.created_at %>
         </p>
       </div>
- 
       <%= image_tag "img/forest.jpg", class:"single-image" %>
       <p class="single-text">
        <%= @blog.body %>
       </p>
- 
       <a href="#">編集</a>
       <a href="#">削除</a>
- 
       <div class="author-case clearfix">
         <div class="author-image"></div>
         <div class="author-box">
@@ -66,7 +62,6 @@
       </div>
     </section>
   </section>
- 
   <div class="sidebar">
     <section class="popular">
       <h2 class="sidebar-headline">Popular</h2>
